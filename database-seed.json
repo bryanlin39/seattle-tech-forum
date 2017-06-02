@@ -1,8 +1,18 @@
 {
   "questions": [{
-    "date": "Mon Jun 2, 2017",
-    "title": "Test Seed Question",
-    "author": "Test Author",
-    "notes": "This is a test seed question"
+    "date": "Mon May 29, 2017",
+    "title": "Do people use Ember in the industry?",
+    "author": "Anonymous",
+    "notes": "Which JavaScript frameworks are worth picking up?"
+    }, {
+    "date": "Fri Jun 2, 2017",
+    "title": "Why do they call it handlebars?",
+    "author": "crispyb0i",
+    "notes": "What kind of bicycle looks like this {{}}?"
+    }, {
+    "date": "Fri Jun 2, 2017",
+    "title": "Is anyone hiring?",
+    "author": "Bryan",
+    "notes": "Please"
     }]
 }
