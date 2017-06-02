@@ -1,0 +1,13 @@
+{{#if updateAnswerForm}}
+  <form>
+    <div class="form-group">
+      <label for="update-answer-content">Answer</label>
+      {{input value=update-answer-content id='update-answer-content'}}
+    </div>
+    <button type='submit' class='btn btn-success' {{action 'updateAnswer1' answer}}>Save Changes</button>
+    <button type='button' {{action 'hideUpdateAnswer'}}>Cancel</button>
+  </form>
+{{else}}
+  <button type='button' class='btn btn-sm btn-warning' {{action 'showUpdateAnswer'}}>Edit</button>
+  <button type='button' class='btn btn-sm btn-danger' {{action 'deleteAnswer1' answer}}>Delete</button>
+{{/if}}

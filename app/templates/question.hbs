@@ -1,0 +1,15 @@
+{{question-detail question=model.question}}
+
+{{question-update question=model.question updateQuestion1='updateQuestion2' deleteQuestion1='deleteQuestion2'}}
+
+{{answer-new question=model.question submitAnswer1='submitAnswer2'}}
+
+<div class='container'>
+  <hr>
+  <h4>Responses:</h4>
+  <ul>
+    {{#each model.question.answers as |answer|}}
+      {{answer-tile answer=answer updateAnswer2='updateAnswer3' deleteAnswer2='deleteAnswer3'}}
+    {{/each}}
+  </ul>
+</div>

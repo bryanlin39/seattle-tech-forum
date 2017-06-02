@@ -17,6 +17,15 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyCYpEhLQ-eenpIny7I3Na9xZUGofxovnMs",
+      authDomain: "seattle-tech-forum.firebaseapp.com",
+      databaseURL: "https://seattle-tech-forum.firebaseio.com",
+      projectId: "seattle-tech-forum",
+      storageBucket: "seattle-tech-forum.appspot.com",
+      messagingSenderId: "283778880948"
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
